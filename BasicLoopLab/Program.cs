@@ -7,6 +7,11 @@ do
     Console.Write("Would you like to continue? (y/n) ");
     answer = Console.ReadLine();
 
+    if (answer == "n")
+    {
+        Console.WriteLine("Goodbye!");
+    }
+
 } while (answer == "y"); 
  */
 
@@ -51,12 +56,14 @@ if (answer == "n")
 
 /*
 string answer = " ";
+string password = "13579";
 
-while (answer != "13579")
+while (answer != password)
 {
     Console.WriteLine("Hello! Please enter the correct door code: ");
     answer = (Console.ReadLine());
-    if (answer != "13579")
+
+    if (answer != password)
     {
         Console.WriteLine("Wrong code!\n");
     } else
@@ -70,15 +77,17 @@ while (answer != "13579")
 ///////////////End of exercise 3
 
 
-/*
+
 string answer = " ";
 int attempts = 0;
+string password = "13579";
 
-while (answer != "13579")
+while (answer != password)
 {
     Console.WriteLine("Hello! Please enter the correct door code: ");
     answer = (Console.ReadLine());
-    if (answer != "13579")
+
+    if (answer != password)
     {
         Console.WriteLine("Wrong code!\n");
         attempts++;
@@ -94,7 +103,7 @@ while (answer != "13579")
         break;
     }
 }
-*/
+
 
 ///////////////End of exercise 4
 
@@ -113,4 +122,4 @@ while (answer != "13579")
 
 
 
-Console.ReadLine();
+Console.ReadKey();
