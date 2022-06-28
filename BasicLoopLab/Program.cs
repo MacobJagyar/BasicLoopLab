@@ -77,7 +77,7 @@ while (answer != password)
 ///////////////End of exercise 3
 
 
-
+/*
 string answer = " ";
 int attempts = 0;
 string password = "13579";
@@ -103,7 +103,7 @@ while (answer != password)
         break;
     }
 }
-
+*/
 
 ///////////////End of exercise 4
 

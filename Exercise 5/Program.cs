@@ -9,13 +9,13 @@ do
 
     if (answer != password)
     {
-        Console.WriteLine("Wrong Code! Please try again\n");
+        Console.WriteLine("Wrong Code!\n");
         attempts++;
     }
 
     if (attempts == 5)
     {
-        Console.WriteLine("\nWrong code!\nWARNING: Maximum attempts exceeded.");
+        Console.WriteLine("WARNING: Maximum attempts exceeded.");
         break;
     }
 
