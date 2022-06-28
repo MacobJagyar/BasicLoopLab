@@ -54,7 +54,7 @@ if (answer == "n")
 
 ///////////////End of exercise 2
 
-/*
+/* 
 string answer = " ";
 string password = "13579";
 
