@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicLoopLab", "BasicLoopLab\BasicLoopLab.csproj", "{8869F597-2DC0-419D-99FA-A51FCBA92F15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicLoopLab", "BasicLoopLab\BasicLoopLab.csproj", "{8869F597-2DC0-419D-99FA-A51FCBA92F15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise 5", "Exercise 5\Exercise 5.csproj", "{83F69D66-22DF-4578-9D5C-1B814A4DC2A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8869F597-2DC0-419D-99FA-A51FCBA92F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8869F597-2DC0-419D-99FA-A51FCBA92F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8869F597-2DC0-419D-99FA-A51FCBA92F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F69D66-22DF-4578-9D5C-1B814A4DC2A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F69D66-22DF-4578-9D5C-1B814A4DC2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F69D66-22DF-4578-9D5C-1B814A4DC2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F69D66-22DF-4578-9D5C-1B814A4DC2A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
