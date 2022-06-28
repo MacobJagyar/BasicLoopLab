@@ -1,4 +1,5 @@
-﻿/* string answer = "";
+﻿/*
+ string answer = "";
 
 do
 {
@@ -6,13 +7,15 @@ do
     Console.Write("Would you like to continue? (y/n) ");
     answer = Console.ReadLine();
 
-} while (answer == "y"); */
+} while (answer == "y"); 
+ */
 
 
 ///////////////End of exercise 1
 
 
-string answer = " ";
+/*
+ string answer = " ";
 
 do
 {
@@ -40,7 +43,8 @@ do
 if (answer == "n")
 {
     Console.WriteLine("Goodbye!");
-}
+} 
+*/
 
 
 ///////////////End of exercise 2
